@@ -1,0 +1,29 @@
+.bounce {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    border: 1px solid #999;
+    animation: bounce 5s infinite alternate;
+    -webkit-animation: bounce 5s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-55px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-55px);
+    }
+}
